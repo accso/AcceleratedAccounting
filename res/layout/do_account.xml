@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout style="@style/AccsoLinearVerticalLayout" >
+
+        <TextView
+            style="@style/AccsoHeading"
+            android:text="@string/accounting_heading" />
+
+        <TextView
+            android:id="@+id/do_accounting_day_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/green_background_gradient"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:padding="4dp"
+            />
+
+        <TextView
+            style="@style/AccsoLabel"
+            android:text="@string/accounting_hours_label" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/do_accounting_hours_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="4"
+                android:inputType="numberDecimal" >
+            </EditText>
+
+            <TextView
+                style="@style/AccsoLabel"
+                android:text="@string/accounting_hours_unit_abbrv" />
+        </LinearLayout>
+
+        <TextView
+            style="@style/AccsoLabel"
+            android:text="@string/accounting_hours_project_label" />
+
+        <Spinner
+            android:id="@+id/do_accounting_project_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            style="@style/AccsoLabel"
+            android:text="Aufgabe" />
+
+        <Spinner
+            android:id="@+id/do_accounting_account_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            style="@style/AccsoLabel"
+            android:text="@string/accounting_hours_comment_label" />
+
+        <EditText
+            android:id="@+id/do_accounting_comment_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="textMultiLine"
+            android:lines="4" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="15dp" >
+
+            <Button
+                android:id="@+id/do_accounting_ok_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingTop="15dp"
+                android:text="@string/ok_button" >
+            </Button>
+
+            <Button
+                android:id="@+id/do_accounting_cancel_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingTop="15dp"
+                android:text="@string/cancel_button" >
+            </Button>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

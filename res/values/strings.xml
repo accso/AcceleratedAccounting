@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, CaptureLocation!</string>
+    <string name="app_name">Accelerated Accounting</string>
+    <string name="capture_location_heading">Standort erfassen</string>
+    <string name="ok_button">OK</string>
+    <string name="cancel_button">Abbrechen</string>
+    <string name="capture_location_name">Name</string>
+    <string name="capture_location_color">Farbe (bei der Kontierung)</string>
+    <string name="default_location_name">Neuer Standort</string>
+    <string-array name="location_types">
+        <item>Arbeitsplatz</item>
+        <item>Freizeit</item>
+    </string-array>
+    <string name="dialog_confirmation_message">Die Position wird im Hintergurnd erfasst und anschließend gespeichert.</string>
+    <string name="capture_location_successfull_notification_ticker">Standorterfassung erfolgreich</string>
+    <string name="capture_location_successfull_notification_msg">Ihr Standort wurde erfasst</string>
+    <string name="capture_location_failed_notification_ticker">Standorterfassung fehlgeschlagen</string>
+    <string name="capture_location_failed_notification_msg">Das Erfassen ihres Standorts ist fehlgeschlagen</string>
+    <string name="show_location_heading">Standort</string>
+    <string name="show_location_menu_item_delete">Standort löschen</string>
+    <string name="show_location_projects_subheading">Projekte</string>
+    <string name="general_longitude">Longitude</string>
+    <string name="general_latitude">Latitude</string>
+    <string name="main_menu_item_capture_location">Standort erfassen</string>
+    <string name="main_menu_item_locations">Standorte</string>
+    <string name="main_menu_item_accounts">Konten</string>
+    <string name="main_menu_item_settings">Einstellungen</string>
+    <string name="show_locations_heading">Standorte</string>
+    <string name="btn_go_show_location_edit_projects">Projekte</string>
+    <string name="main_menu_item_start">Start</string>
+    <string name="main_menu_item_stop">Stop</string>
+    <string name="main_menu_item_customers">Kunden</string>
+    <string name="main_menu_item_show_recorded_hours_day">Aufgezeichnete Stunden - Tag</string>
+    <string name="main_menu_item_copy_database">Datenbank kopieren</string>
+    <string name="show_recorded_hours_heading">Aufgezeichnete Stunden</string>
+    <string name="main_menu_item_recorded_hours">Erfasste Stunden</string>
+    <string name="general_accuracy">Genauigkeit</string>
+    <string name="capture_location_type">Typ</string>
+    
+    <!-- CustomerContextMenu -->
+    <string name="customer_context_menu_show_customer">Anzeigen</string>
+    <string name="customer_context_menu_edit_customer">Bearbeiten</string>
+    <string name="customer_context_menu_delete_customer">Löschen</string>
+    
+    <!-- Customer -->
+    <string name="add_new_customer">Neuer Kunde</string>
+    <string name="show_customers_heading">Kunden</string>
+    <string name="customer_menu_item_create_new">Neuer Kunde</string>
+    <string name="lbl_edit_customer_general"><u>Allgemein</u></string>
+    <string name="lbl_edit_customer_address"><u>Adresse</u></string>
+    <string name="lbl_edit_customer_name_title">Name</string>
+    <string name="lbl_edit_customer_street_title">Straße</string>
+    <string name="lbl_edit_customer_city_title">Stadt</string>
+    <string name="lbl_edit_customer_zip_title">PLZ</string>
+    <string name="btn_edit_customer_save">Speichern</string>
+    <string name="btn_edit_customer_cancel">Abbrechen</string>
+    <string name="btn_go_edit_customer">Bearbeiten</string>
+    <string name="lbl_project_list_title">Projekte</string>
+    <string name="btn_go_create_project">Neues Projekt</string>
+    <string name="btn_go_create_customer">Neuer Kunde</string>    
+ 
+	 <!-- Project -->
+	 <string name="lbl_edit_project_general">Allgemein</string>
+	 <string name="lbl_edit_project_name_title">Name</string>
+	 <string name="lbl_edit_project_description_title">Beschreibung</string>
+	 <string name="btn_edit_project_save">Speichern</string>
+	 <string name="btn_edit_project_cancel">Abbrechen</string>
+	 <string name="btn_go_edit_project">Bearbeiten</string>
+	 
+	 <!-- Kontieren -->
+	 <string name="btn_go_assign_account">Kontieren</string>
+	 <string name="assign_account_from">Von</string>
+	 <string name="assign_account_to">Bis</string>
+	 <string name="assign_account_project">Projekt</string>
+	 <string name="assign_button">Speichern</string>
+	 <string name="split_button">Aufteilen</string>
+	 <string name="assign_account_account">Konto</string>
+	 <string name="assign_account_note">Bemerkung</string>
+	 <string name="assign_account_assign">Kontieren</string>
+	 <string name="add_current_location">Aktuellen Standort hinzufügen</string>
+	 <string name="accounting_tabs_recorded_hours_text">Erfasste Stunden</string>
+	 <string name="accounting_tabs_accounted_hours_text">Kontierte Stunden</string>
+	 <string name="show_accounted_hours_day_no_accountings">Keine Kontierung</string>
+	 <string name="accounting_heading">Kontieren</string>
+	 <string name="accounting_hours_label">Stunden</string>
+	 <string name="accounting_hours_unit_abbrv">h</string>
+	 <string name="accounting_hours_project_label">Projekt</string>
+	 <string name="accounting_hours_account_label">Konto</string>
+	 <string name="accounting_hours_comment_label">Bemerkung</string>
+	
+	 <!-- Main -->
+	 <string name="main_tile_projects">Meine Projekte</string>
+	 <string name="main_tile_hours">Meine Stunden</string>
+	 <string name="main_tile_locations">Meine Standorte</string>
+	 <string name="main_tile_customers">Meine Kunden</string>
+	 <string name="main_tile_push">Senden</string>
+	 <string name="main_tile_fetch">Aktualisieren</string>
+	 <string name="main_tile_start">Service starten</string>
+	 <string name="main_tile_stop">Service stoppen</string>
+	 <string name="main_tile_settings">Einstellungen</string>
+	 
+	 <string name="msg_service_started">Der Accelerated Accounting Service wurde gestartet.</string>
+	 <string name="msg_service_stopped">Der Accelerated Accounting Service wurde gestoppt.</string>
+	 
+ 
+</resources>

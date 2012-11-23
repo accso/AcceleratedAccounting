@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/table_row"
+    android:paddingTop="10dp" 
+    android:paddingBottom="10dp"
+   >
+
+    
+    <TextView
+        android:id="@+id/table_row_text"
+        android:text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="10dp"
+         android:textSize="16sp"
+        android:textColor="@color/black" />
+
+    <ImageView
+        android:id="@+id/table_row_icon"
+        android:gravity="center_vertical"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/icon_selector"
+      />
+    
+</TableRow>

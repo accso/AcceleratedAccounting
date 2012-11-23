@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- PRESSED TAB -->
+    <item android:state_pressed="true">
+        <shape>
+            <gradient
+                android:startColor="@color/white"
+                android:endColor="#e2ece2"
+                android:angle="270" />
+        </shape>
+    </item>
+    <!-- INACTIVE TABS -->
+    <item 
+        android:state_selected="false"
+        android:state_focused="false"
+        android:state_pressed="false"
+        >
+        <shape>
+            <gradient
+                android:startColor="#008d00"
+                android:endColor="#87ba87"
+                android:angle="270" />
+            <stroke android:color="@color/black" android:width="1px"/>
+        </shape>
+    </item>
+    <!-- ACTIVE TAB -->
+    <item 
+        android:state_selected="true"
+        android:state_focused="false"
+        android:state_pressed="false"
+    >
+        <shape>
+            <gradient
+                android:startColor="@color/white"
+                android:endColor="#e2ece2"
+                android:angle="270" />
+        </shape>
+    </item>
+    <!-- SELECTED TAB -->
+    <item 
+        android:state_focused="true"
+        android:state_selected="true"
+        android:state_pressed="false"
+     >
+       <shape>
+            <gradient
+                android:startColor="@color/white"
+                android:endColor="#e2ece2"
+                android:angle="270" />
+        </shape>
+     </item>
+</selector>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/AccsoLinearVerticalLayout" >
+
+   
+        <TextView
+            android:id="@+id/lbl_project_name"
+            style="@style/AccsoHeading"/>
+
+          <TableLayout
+        android:id="@+id/show_project_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="15dp"
+        android:stretchColumns="1" >
+    </TableLayout>
+        
+    <TextView
+        android:id="@+id/lbl_project_description"
+        style="@style/AccsoLabel" >
+    </TextView>
+
+</LinearLayout>

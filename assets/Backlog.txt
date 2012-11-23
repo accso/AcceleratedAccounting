@@ -1,0 +1,15 @@
+TODOS
+=====
+
+ - Erfasste Stunden voll durch programmieren
+ - Erfasste Stunden: Keine deutsche Zeiten
+ - Bug fixen: Service stoppen (Der Service kann momentan nicht zuverlässig gestoppt werden)
+ - Standort bearbeiten (Arbeitsplatz oder Freizeit)
+ - Kontieren
+ - Senden
+ - Aktualisieren
+ - Einstellungen
+ - Projekte
+ - Kunden und Projekte-View refactoren schöner machen
+ - Ansicht für große Bildschirme optimieren
+ - Tag wechseln über Swipe 

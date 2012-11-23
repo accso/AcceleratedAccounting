@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/AccsoLinearVerticalLayout"
+    android:baselineAligned="false" >
+
+    <TextView
+        android:id="@+id/lbl_customer_name"
+        style="@style/AccsoHeading" />
+
+    <TableLayout
+        android:id="@+id/show_customer_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="15dp"
+        android:stretchColumns="1" >
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/lbl_address_info"
+        style="@style/AccsoLabel" />
+
+    <TextView
+        style="@style/AccsoHeading"
+        android:text="@string/lbl_project_list_title" />
+
+    <TableLayout
+        android:id="@+id/show_customer_add_project"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="15dp"
+        android:stretchColumns="1" >
+    </TableLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/black" >
+    </View>
+
+    <ListView
+        android:id="@+id/show_projects_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/black" >
+    </View>
+
+    <TextView
+        android:id="@+id/lbl_projects_list_no_rows"
+        style="@style/AccsoLabel" />
+
+</LinearLayout>

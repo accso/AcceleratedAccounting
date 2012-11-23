@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="accso_green_color">#396a37</color>
+    <color name="accso_light_green_color">#008d00</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="accso_grey">#615b5b</color>
+    <color name="accso_red">#e82f2f</color>
+    
+     <style name="AccsoHeading" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/accso_green_color</item>
+        <item name="android:background">@drawable/header_background_accso</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:paddingTop">20dp</item>
+        <item name="android:paddingLeft">5dp</item>
+         <item name="android:paddingRight">5dp</item>
+        <item name="android:paddingBottom">25dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+     <style name="AccsoSubHeading" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/accso_green_color</item>
+         <item name="android:background">@color/white</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <style name="AccsoLabel" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/accso_green_color</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:layout_marginTop">3dp</item>
+        <item name="android:layout_marginBottom">3dp</item>
+        <item name="android:paddingLeft">10dp</item>
+    </style>
+    
+    
+    <style name="AccsoLinearVerticalLayout">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+   
+    
+    
+    
+	<style name="AccsoTheme" parent="android:Theme.Light.NoTitleBar">
+    	<item name="android:windowBackground">@color/white</item>
+    	<item name="android:colorBackground">@color/white</item>
+    	<item name="android:textColorHighlight">@color/accso_green_color</item>
+	</style>
+
+</resources>

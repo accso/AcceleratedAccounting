@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/AccsoLinearVerticalLayout" >
+
+    <TextView
+        style="@style/AccsoHeading"
+        android:text="@string/show_customers_heading" />
+
+    <TableLayout
+        android:id="@+id/show_customers_add_customer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="15dp"
+        android:stretchColumns="1" >
+    </TableLayout>
+    
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/black" >
+    </View>
+
+    <ListView
+        android:id="@+id/show_customers_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/black" >
+    </View>
+
+</LinearLayout>

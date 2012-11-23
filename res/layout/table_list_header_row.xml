@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/table_header_row"
+    android:paddingTop="10dp" 
+    android:paddingBottom="10dp"
+    android:background="@drawable/table_row_selector"
+    >
+
+    
+    <ImageView
+        android:id="@+id/table_header_row_icon"
+        android:src="@drawable/ic_list_add_item_5"
+        android:gravity="left"
+         android:paddingLeft="5dp"
+        />
+
+    <TextView
+        android:id="@+id/table_header_row_text"
+        android:textColor="@color/black"
+        android:paddingLeft="5dp"
+        android:text="Hinzufügen" />
+  
+
+</TableRow>

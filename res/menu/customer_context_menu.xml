@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        
+     <item android:id="@+id/customer_context_menu_show_customer"
+      android:title="@string/customer_context_menu_show_customer" android:visible="true"/>
+     
+     <item android:id="@+id/customer_context_menu_edit_customer"
+      android:title="@string/customer_context_menu_edit_customer" android:visible="true"/>
+     
+     <item android:id="@+id/customer_context_menu_delete_customer"
+      android:title="@string/customer_context_menu_delete_customer" android:visible="true"/>
+         
+</menu>
+

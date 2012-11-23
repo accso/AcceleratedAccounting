@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	style="@style/AccsoLinearVerticalLayout">
+	
+	<TextView 
+		style="@style/AccsoHeading"
+		android:text="@string/capture_location_heading" />
+	
+	<TextView 
+		android:text="@string/capture_location_name" 
+		android:id="@+id/name_label"
+		style="@style/AccsoLabel" />
+		
+	<EditText 
+		android:text="@string/default_location_name"
+		android:id="@+id/location_name_input"
+		android:inputType="textAutoComplete"
+		android:layout_height="wrap_content" 
+		android:layout_width="match_parent" />
+	
+	<TextView 
+		android:text="@string/capture_location_type" 
+		android:id="@+id/type_label"
+		style="@style/AccsoLabel" />
+	
+	<Spinner 
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent" 
+		android:paddingTop="15dp" 
+		android:id="@+id/loction_type_spinner"
+		android:entries="@array/location_types"/>
+	
+	<TextView 
+		android:text="@string/capture_location_color" 
+		android:id="@+id/type_label"
+		style="@style/AccsoLabel" />
+	
+	<Spinner 
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent" 
+		android:paddingTop="15dp" 
+		android:id="@+id/location_color_spinner"/>
+	
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="15dp"
+	    android:layout_gravity="bottom" >
+
+	    <Button
+	        android:id="@+id/ok_button"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:paddingTop="15dp"
+	        android:text="@string/ok_button" >
+	    </Button>
+
+	    <Button
+	        android:id="@+id/cancel_button"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:paddingTop="15dp"
+	        android:text="@string/cancel_button" >
+	    </Button>
+	</LinearLayout>
+	
+</LinearLayout>

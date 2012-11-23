@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout style="@style/AccsoLinearVerticalLayout" >
+
+        <TextView
+            style="@style/AccsoHeading"
+            android:text="Stundenzettel senden" />
+
+        <TextView
+            android:id="@+id/do_accounting_day_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/green_background_gradient"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:padding="4dp"
+            android:text="Janur 2012" 
+            />
+        
+        <TextView
+            style="@style/AccsoSubHeading"
+            android:text="Projektgeschäft" />
+        
+        <View android:layout_height="1px" android:layout_width="match_parent" android:background="@color/black"> </View>
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="15dp"
+            android:stretchColumns="1" >
+            <TableRow>
+                <TextView
+                    android:layout_column="0"
+                    android:gravity="left|center"
+                    android:padding="4dp"
+                    android:textSize="18sp"
+                    android:text="Android-Projekt"
+                 >
+                </TextView>
+                 <TextView
+                    android:layout_column="1"
+                    android:gravity="right|center"
+                    android:padding="4dp"
+                    android:textSize="18sp"
+                    android:text="58.5 h"
+                 >
+                </TextView>
+            </TableRow>
+            
+            <TableRow>
+                <TextView
+                    android:layout_column="0"
+                    android:gravity="left|center"
+                    android:padding="4dp"
+                    android:textSize="18sp"
+                    android:text="Projekt 1"
+                 >
+                </TextView>
+                 <TextView
+                    android:layout_column="1"
+                    android:gravity="right|center"
+                    android:padding="4dp"
+                    android:textSize="18sp"
+                    android:text="55.5 h"
+                 >
+                </TextView>
+            </TableRow>
+            
+            <View android:layout_height="1px" android:layout_width="match_parent" android:background="@color/black"> </View>
+            
+            <TableRow>
+                <TextView
+                    android:layout_column="0"
+                    android:gravity="left|center"
+                    android:padding="4dp"
+                    android:textSize="18sp"
+                    android:text="Total"
+                 >
+                </TextView>
+                 <TextView
+                    android:layout_column="1"
+                    android:gravity="right|center"
+                    android:padding="4dp"
+                    android:textSize="18sp"
+                    android:text="115.0 h"
+                 >
+                </TextView>
+            </TableRow>
+
+        </TableLayout>
+        
+        
+        <TextView
+            style="@style/AccsoSubHeading"
+            android:text="Accso-Intern" />
+        
+        <View android:layout_height="1px" android:layout_width="match_parent" android:background="@color/black"> </View>
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="15dp"
+            android:stretchColumns="1" >
+            <TableRow>
+                <TextView
+                    android:layout_column="0"
+                    android:gravity="left|center"
+                    android:padding="4dp"
+                    android:textSize="18sp"
+                    android:text="AUSB"
+                 >
+                </TextView>
+                 <TextView
+                    android:layout_column="1"
+                    android:gravity="right|center"
+                    android:padding="4dp"
+                    android:textSize="18sp"
+                    android:text="8.0 h"
+                 >
+                </TextView>
+            </TableRow>
+            
+            <TableRow>
+                <TextView
+                    android:layout_column="0"
+                    android:gravity="left|center"
+                    android:padding="4dp"
+                    android:textSize="18sp"
+                    android:text="MTG"
+                 >
+                </TextView>
+                 <TextView
+                    android:layout_column="1"
+                    android:gravity="right|center"
+                    android:padding="4dp"
+                    android:textSize="18sp"
+                    android:text="2 h"
+                 >
+                </TextView>
+            </TableRow>
+            
+            <TableRow>
+                <TextView
+                    android:layout_column="0"
+                    android:gravity="left|center"
+                    android:padding="4dp"
+                    android:textSize="18sp"
+                    android:text="URLAUB"
+                 >
+                </TextView>
+                 <TextView
+                    android:layout_column="1"
+                    android:gravity="right|center"
+                    android:padding="4dp"
+                    android:textSize="18sp"
+                    android:text="40.0 h"
+                 >
+                </TextView>
+            </TableRow>
+            
+            <View android:layout_height="1px" android:layout_width="match_parent" android:background="@color/black"> </View>
+            
+            <TableRow>
+                <TextView
+                    android:layout_column="0"
+                    android:gravity="left|center"
+                    android:padding="4dp"
+                    android:textSize="18sp"
+                    android:text="Total"
+                 >
+                </TextView>
+                 <TextView
+                    android:layout_column="1"
+                    android:gravity="right|center"
+                    android:padding="4dp"
+                    android:textSize="18sp"
+                    android:text="50.0 h"
+                 >
+                </TextView>
+            </TableRow>
+
+        </TableLayout>
+        
+        
+        
+        <TextView
+            style="@style/AccsoSubHeading"
+            android:text="Soll - Ist" />
+        
+        <View android:layout_height="1px" android:layout_width="match_parent" android:background="@color/black"> </View>
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="15dp"
+            android:stretchColumns="1" >
+            
+            <TableRow>
+                <TextView
+                    android:layout_column="0"
+                    android:gravity="left|center"
+                    android:padding="4dp"
+                    android:textSize="18sp"
+                    android:text="Ist"
+                 >
+                </TextView>
+                 <TextView
+                    android:layout_column="1"
+                    android:gravity="right|center"
+                    android:padding="4dp"
+                    android:textSize="18sp"
+                    android:text="165.0 h"
+                 >
+                </TextView>
+            </TableRow>
+            
+            <TableRow>
+                <TextView
+                    android:layout_column="0"
+                    android:gravity="left|center"
+                    android:padding="4dp"
+                    android:textSize="18sp"
+                    android:text="Soll"
+                 >
+                </TextView>
+                 <TextView
+                    android:layout_column="1"
+                    android:gravity="right|center"
+                    android:padding="4dp"
+                    android:textSize="18sp"
+                    android:text="161.0 h"
+                 >
+                </TextView>
+            </TableRow>
+            
+            
+            
+            <View android:layout_height="1px" android:layout_width="match_parent" android:background="@color/black"> </View>
+            
+            <TableRow>
+                <TextView
+                    android:layout_column="0"
+                    android:gravity="left|center"
+                    android:padding="4dp"
+                    android:textSize="18sp"
+                    android:text="Differenz"
+                 >
+                </TextView>
+                 <TextView
+                    android:layout_column="1"
+                    android:gravity="right|center"
+                    android:padding="4dp"
+                    android:textSize="18sp"
+                    android:text="4.0 h"
+                 >
+                </TextView>
+            </TableRow>
+
+        </TableLayout>
+        
+        
+        <TextView
+            style="@style/AccsoSubHeading"
+            android:text="Überstunden" />
+        
+        <View android:layout_height="1px" android:layout_width="match_parent" android:background="@color/black"> </View>
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="15dp"
+            android:stretchColumns="1" >
+            <TableRow>
+                <TextView
+                    android:layout_column="0"
+                    android:gravity="left|center"
+                    android:padding="4dp"
+                    android:textSize="18sp"
+                    android:text="Dieser Monat"
+                 >
+                </TextView>
+                 <TextView
+                    android:layout_column="1"
+                    android:gravity="right|center"
+                    android:padding="4dp"
+                    android:textSize="18sp"
+                    android:text="4.0 h"
+                 >
+                </TextView>
+            </TableRow>
+            
+            <TableRow>
+                <TextView
+                    android:layout_column="0"
+                    android:gravity="left|center"
+                    android:padding="4dp"
+                    android:textSize="18sp"
+                    android:text="Übertrag Vormonat"
+                 >
+                </TextView>
+                 <TextView
+                    android:layout_column="1"
+                    android:gravity="right|center"
+                    android:padding="4dp"
+                    android:textSize="18sp"
+                    android:text="8.0 h"
+                 >
+                </TextView>
+            </TableRow>
+            
+            <View android:layout_height="1px" android:layout_width="match_parent" android:background="@color/black"> </View>
+            
+            <TableRow>
+                <TextView
+                    android:layout_column="0"
+                    android:gravity="left|center"
+                    android:padding="4dp"
+                    android:textSize="18sp"
+                    android:text="Total"
+                 >
+                </TextView>
+                 <TextView
+                    android:layout_column="1"
+                    android:gravity="right|center"
+                    android:padding="4dp"
+                    android:textSize="18sp"
+                    android:text="12.0 h"
+                 >
+                </TextView>
+            </TableRow>
+
+        </TableLayout>
+        
+        <TextView
+            style="@style/AccsoSubHeading"
+            android:text="Urlaub" />
+        
+        <View android:layout_height="1px" android:layout_width="match_parent" android:background="@color/black"> </View>
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="15dp"
+            android:stretchColumns="1" >
+            <TableRow>
+                <TextView
+                    android:layout_column="0"
+                    android:gravity="left|center"
+                    android:padding="4dp"
+                    android:textSize="18sp"
+                    android:text="Dieser Monat"
+                 >
+                </TextView>
+                 <TextView
+                    android:layout_column="1"
+                    android:gravity="right|center"
+                    android:padding="4dp"
+                    android:textSize="18sp"
+                    android:text="5 Tage"
+                 >
+                </TextView>
+            </TableRow>
+            
+            <TableRow>
+                <TextView
+                    android:layout_column="0"
+                    android:gravity="left|center"
+                    android:padding="4dp"
+                    android:textSize="18sp"
+                    android:text="Übertrag Vormonat"
+                 >
+                </TextView>
+                 <TextView
+                    android:layout_column="1"
+                    android:gravity="right|center"
+                    android:padding="4dp"
+                    android:textSize="18sp"
+                    android:text="0 Tage"
+                 >
+                </TextView>
+            </TableRow>
+            
+            <View android:layout_height="1px" android:layout_width="match_parent" android:background="@color/black"> </View>
+            
+            <TableRow>
+                <TextView
+                    android:layout_column="0"
+                    android:gravity="left|center"
+                    android:padding="4dp"
+                    android:textSize="18sp"
+                    android:text="Resturlaub"
+                 >
+                </TextView>
+                 <TextView
+                    android:layout_column="1"
+                    android:gravity="right|center"
+                    android:padding="4dp"
+                    android:textSize="18sp"
+                    android:text="23 Tage"
+                 >
+                </TextView>
+            </TableRow>
+
+        </TableLayout>
+        
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="15dp" >
+
+            <Button
+                android:id="@+id/send_timesheet_ok_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingTop="15dp"
+                android:text="Senden" >
+            </Button>
+
+            <Button
+                android:id="@+id/do_accounting_cancel_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingTop="15dp"
+                android:text="@string/cancel_button" >
+            </Button>
+        </LinearLayout>
+    
+    </LinearLayout>
+        
+
+
+</ScrollView>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout style="@style/AccsoLinearVerticalLayout" >
+
+        <TextView
+            android:id="@+id/show_loction_name"
+            style="@style/AccsoHeading" />
+
+        <com.google.android.maps.MapView
+            android:id="@+id/show_loction_map"
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:apiKey="0Xnm88PWqKH1fq18nkLLG-xhY7z-HbAFbtb5VNg"
+            android:clickable="true" />
+
+        <TextView
+            style="@style/AccsoSubHeading"
+            android:text="@string/show_location_projects_subheading" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+				
+            	 <TableLayout
+                    android:id="@+id/show_location_projects_list_table_header"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="15dp"
+                    android:stretchColumns="1" >
+                </TableLayout>
+	
+				<View android:layout_height="1px" android:layout_width="match_parent" android:background="@color/black"> </View>
+                <TableLayout
+                    android:id="@+id/show_location_projects_list_table"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                   
+                    android:stretchColumns="0" >
+                </TableLayout>
+                <View android:layout_height="1px" android:layout_width="match_parent" android:background="@color/black"> </View>
+           
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
